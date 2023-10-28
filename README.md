@@ -10,3 +10,7 @@ We use resources.js to store constant values.
 
 ### Function declarations
 We use library.js to save our function declaration.
+
+
+## Development process
+Please, take an issue wrote in TODO.txt by the highest priority number. Remember to update this README for each variations.
