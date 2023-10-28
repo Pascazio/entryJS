@@ -1,10 +1,10 @@
 //Importing required data from an external source
 const { a, b} = require('./resources');
 
-//Function declaration
-function sum(first, second){
-    return first + second;
-};
+
+//Importing function from an external source
+const { sum } = require('./library');
+
 //Function that allows you to see the result without writing console.log
 function showResult(){
     const x = sum(a,b);
