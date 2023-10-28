@@ -1,6 +1,5 @@
-//Global declaration of constants
-const a = 3;
-const b = 5;
+//Importing required data from an external source
+const { a, b} = require('./resources');
 
 //Function declaration
 function sum(first, second){
