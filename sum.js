@@ -1,16 +1,11 @@
-//Global declaration of constants
-const a = 3;
-const b = 5;
+//Importing required data from an external source
+const { a, b} = require('./resources');
 
-//Function declaration
-function sum(first, second){
-    return first + second;
-};
-//Function that allows you to see the result without writing console.log
-function showResult(){
-    const x = sum(a,b);
-    console.log(x);
-}
+
+//Importing function from an external source
+const { sum, showResult } = require('./library');
+
+
 
 //Run
 showResult();
