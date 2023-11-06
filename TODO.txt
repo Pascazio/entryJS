@@ -1,0 +1,2 @@
+Need to implement other operations; Priority:2
+Need to set up TDD approach Frameworkless; Priority:1
