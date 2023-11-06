@@ -18,32 +18,32 @@ function div(first, second) {
 //Function that allows you to see the result without writing console.log
 function showResult(first, second) {
     const x = sum(first, second);
-    console.log('Il risutato della somma è:', x);
+    console.log('Il risutato della somma Ã¨:', x);
     const y = sott(first, second);
-    console.log('Il risutato della sottrazione é:', y);
+    console.log('Il risutato della sottrazione Ã¨:', y);
     const z = molt(first, second);
-    console.log('Il risutato della moltiplicazione è:', z);
+    console.log('Il risutato della moltiplicazione Ã¨:', z);
     const k = div(first, second);
-    console.log('Il risutato della divisione è:', k);
+    console.log('Il risutato della divisione Ã¨:', k);
 }
 //Create a single function
 function showResultSum(first, second) {
     const a = sum(first, second);
-    console.log('Il risutato della somma è:', a);
+    console.log('Il risutato della somma Ã¨:', a);
 }
 function showResultSott(first, second) {
     const b = sott(first, second);
-    console.log('Il risutato della sottrazione é:', b);
+    console.log('Il risutato della sottrazione Ã¨:', b);
 }
 
 function showResultMolt(first, second) {
     const c = molt(first, second);
-    console.log('Il risutato della moltiplicazione è:', c);
+    console.log('Il risutato della moltiplicazione Ã¨:', c);
 }
 
 function showResultDiv(first, second) {
     const d = div(first, second);
-    console.log('Il risutato della divisione è:', d);
+    console.log('Il risutato della divisione Ã¨:', d);
 }
 
 
