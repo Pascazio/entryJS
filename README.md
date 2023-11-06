@@ -12,5 +12,5 @@ We use resources.js to store constant values.
 We use library.js to save our function declaration.
 
 
-## Development process
-Please, take an issue wrote in TODO.txt by the highest priority number. Remember to update this README for each variations.
+## Test
+We use Jest for testing. Each file in /src must have a file named test.*.js into /test
