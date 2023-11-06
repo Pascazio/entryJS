@@ -10,3 +10,7 @@ We use resources.js to store constant values.
 
 ### Function declarations
 We use library.js to save our function declaration.
+
+
+## Test
+We use Jest for testing. Each file in /src must have a file named test.*.js into /test
